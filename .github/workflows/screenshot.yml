@@ -1,0 +1,14 @@
+name: Screenshot
+
+on: [push]
+
+jobs: 
+  screenshot:
+    runs-on: windows-latest
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
+    - run: node index.js
+    - uses: actions/upload-artifact@master
+        with:
+          name: screenshot
+          path: screenshot.jpg
