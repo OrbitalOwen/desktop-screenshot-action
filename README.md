@@ -1,4 +1,4 @@
-# Screenshot GitHub Action
+# Desktop Screenshot Action
 
 This action screenshots the current desktop and uploads it as an artifact.
 
