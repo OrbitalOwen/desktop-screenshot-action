@@ -1,0 +1,11 @@
+name: Screenshot
+
+on: [push]
+
+jobs:
+    screenshot:
+        runs-on: windows-latest
+        steps:
+            - uses: actions/checkout@v2
+            - uses: ./
+              id: hello

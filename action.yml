@@ -1,0 +1,10 @@
+name: "Create a desktop screenshot"
+description: "Create a screenshot of the runner's desktop"
+inputs:
+    file-name:
+        description: "Name of screenshot file"
+        required: true
+        default: "screenshot.jpg"
+runs:
+    using: "node12"
+    main: "index.js"

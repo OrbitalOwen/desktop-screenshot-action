@@ -1,5 +1,5 @@
 {
-  "name": "screenshot-github-action",
+  "name": "desktop-screenshot-action",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,8 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
+    "@actions/artifact": "^0.3.0",
+    "@actions/core": "^1.2.3",
     "screenshot-desktop": "^1.12.0"
   }
 }
