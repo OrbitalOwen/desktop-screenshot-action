@@ -15,7 +15,7 @@ Supports Windows and macOS runners, Linux support currently requires imagemagick
 ## Example usage
 
 ```
-- uses: actions/screenshot-desktop-action
+- uses: OrbitalOwen/desktop-screenshot-action@0.1
   with:
   file-name: 'desktop.jpg'
 ```
