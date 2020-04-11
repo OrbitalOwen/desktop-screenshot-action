@@ -14,6 +14,8 @@ Supports Windows and macOS runners, Linux support currently requires imagemagick
 
 ## Example usage
 
-uses: actions/screenshot-desktop-action
-with:
-file-name: 'desktop.jpg'
+```
+- uses: actions/screenshot-desktop-action
+  with:
+  file-name: 'desktop.jpg'
+```
